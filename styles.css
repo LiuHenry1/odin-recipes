@@ -1,0 +1,15 @@
+/* Text in general*/
+h2, p, li {
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* h1 used for recipe name */
+h1 {
+    background-color: #faebd7;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: 500px;
+}

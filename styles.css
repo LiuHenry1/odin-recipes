@@ -1,15 +1,48 @@
+/* Common style for all pages */
 /* Text in general*/
-h2, p, li {
+* {
     font-family: 'Times New Roman', Times, serif
 }
 
 /* h1 used for recipe name */
 h1 {
     background-color: #faebd7;
-    text-align: center;
+    color: white;
 }
 
 img {
     width: auto;
     height: 500px;
 }
+
+body {
+    margin-top: 0;
+    background-color:#D3D3D3;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    background-color: #C3A97E;
+    text-align: center;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+/* Code below styles index page */
+#recipe-list li{
+    margin-bottom: 100px;
+}
+
+
